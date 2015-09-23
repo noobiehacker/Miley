@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../Design/PizzaRella/Exports/pacManSplashScreen.png">
+      <sourceFolder url="file://$MODULE_DIR$/../Design/PizzaRella/Exports/pacManSplashScreen.png" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../Design/PizzaRella/Exports/pacManSplashScreen@2x.png">
+      <sourceFolder url="file://$MODULE_DIR$/../Design/PizzaRella/Exports/pacManSplashScreen@2x.png" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../Design/PizzaRella/Exports/pacManSplashScreen@3x.png">
+      <sourceFolder url="file://$MODULE_DIR$/../Design/PizzaRella/Exports/pacManSplashScreen@3x.png" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
