@@ -18,11 +18,12 @@
 		221AEED71BB3841E006F19A9 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED11BB3841E006F19A9 /* enum.swift */; settings = {ASSET_TAGS = (); }; };
 		22A642901BAD4DA8002B6A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */; };
 		22A642921BAD4DA8002B6A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A642911BAD4DA8002B6A4D /* ViewController.swift */; };
-		22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A642931BAD4DA8002B6A4D /* Main.storyboard */; };
+		22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A642931BAD4DA8002B6A4D /* Main.storyboard */; settings = {ASSET_TAGS = (toHome, ); }; };
 		22A642971BAD4DA8002B6A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A642961BAD4DA8002B6A4D /* Assets.xcassets */; };
 		22A6429A1BAD4DA8002B6A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A642981BAD4DA8002B6A4D /* LaunchScreen.storyboard */; };
 		22A642A51BAD4DA8002B6A4D /* PizzaRellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A642A41BAD4DA8002B6A4D /* PizzaRellaTests.swift */; };
 		22A642B01BAD4DA8002B6A4D /* PizzaRellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A642AF1BAD4DA8002B6A4D /* PizzaRellaUITests.swift */; };
+		6AD013E43173B6D63E067830 /* Pods_PizzaRella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCAD5DC67FE2D435F63D96 /* Pods_PizzaRella.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		221AEECF1BB3841E006F19A9 /* foodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodModel.swift; sourceTree = "<group>"; };
 		221AEED01BB3841E006F19A9 /* pizzaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaModel.swift; sourceTree = "<group>"; };
 		221AEED11BB3841E006F19A9 /* enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		221AEEDA1BB3E043006F19A9 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
 		22A6428C1BAD4DA8002B6A4D /* PizzaRella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A642911BAD4DA8002B6A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,9 @@
 		22A642AB1BAD4DA8002B6A4D /* PizzaRellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaRellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A642AF1BAD4DA8002B6A4D /* PizzaRellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRellaUITests.swift; sourceTree = "<group>"; };
 		22A642B11BAD4DA8002B6A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DEB4BE8617F413089B06A8C /* Pods-PizzaRella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaRella.release.xcconfig"; path = "Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella.release.xcconfig"; sourceTree = "<group>"; };
+		76DCAD5DC67FE2D435F63D96 /* Pods_PizzaRella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaRella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0AECAF31020F770E877489 /* Pods-PizzaRella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaRella.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD013E43173B6D63E067830 /* Pods_PizzaRella.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +147,13 @@
 		22A642831BAD4DA8002B6A4D = {
 			isa = PBXGroup;
 			children = (
+				221AEEDA1BB3E043006F19A9 /* Objective-CBridgingHeader.h */,
 				22A6428E1BAD4DA8002B6A4D /* PizzaRella */,
 				22A642A31BAD4DA8002B6A4D /* PizzaRellaTests */,
 				22A642AE1BAD4DA8002B6A4D /* PizzaRellaUITests */,
 				22A6428D1BAD4DA8002B6A4D /* Products */,
+				5EDFEFA729A6369B7A603842 /* Pods */,
+				AE22C4765910FDD2B2D7B517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +206,23 @@
 			path = PizzaRellaUITests;
 			sourceTree = "<group>";
 		};
+		5EDFEFA729A6369B7A603842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0AECAF31020F770E877489 /* Pods-PizzaRella.debug.xcconfig */,
+				6DEB4BE8617F413089B06A8C /* Pods-PizzaRella.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE22C4765910FDD2B2D7B517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76DCAD5DC67FE2D435F63D96 /* Pods_PizzaRella.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22A642B41BAD4DA8002B6A4D /* Build configuration list for PBXNativeTarget "PizzaRella" */;
 			buildPhases = (
+				77A8139EDFDC82ECD4B7A1D6 /* Check Pods Manifest.lock */,
 				22A642881BAD4DA8002B6A4D /* Sources */,
 				22A642891BAD4DA8002B6A4D /* Frameworks */,
 				22A6428A1BAD4DA8002B6A4D /* Resources */,
+				F0F3D7450841590CDB287912 /* Embed Pods Frameworks */,
+				EDB1B2F41AF68B0602A362EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +288,9 @@
 		22A642841BAD4DA8002B6A4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					toHome,
+				);
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = PizzaRellaProj;
 				TargetAttributes = {
@@ -324,6 +356,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77A8139EDFDC82ECD4B7A1D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDB1B2F41AF68B0602A362EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F3D7450841590CDB287912 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22A642881BAD4DA8002B6A4D /* Sources */ = {
@@ -475,6 +555,7 @@
 		};
 		22A642B51BAD4DA8002B6A4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0AECAF31020F770E877489 /* Pods-PizzaRella.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizzaRella/Info.plist;
@@ -486,6 +567,7 @@
 		};
 		22A642B61BAD4DA8002B6A4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEB4BE8617F413089B06A8C /* Pods-PizzaRella.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizzaRella/Info.plist;

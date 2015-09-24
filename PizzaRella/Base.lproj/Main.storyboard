@@ -163,12 +163,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IEO-0A-tND"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DnJ-92-9Pk"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YT5-ch-BIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="406"/>
+            <point key="canvasLocation" x="40" y="410"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

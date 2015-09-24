@@ -1,0 +1,6 @@
+framework module Pods_PizzaRella {
+  umbrella header "Pods-PizzaRella-umbrella.h"
+
+  export *
+  module * { export * }
+}
