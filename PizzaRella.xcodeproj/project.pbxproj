@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221AEEC91BB38405006F19A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEEC41BB38405006F19A9 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEECA1BB38405006F19A9 /* pacManSplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 221AEEC61BB38405006F19A9 /* pacManSplashScreen.png */; settings = {ASSET_TAGS = (); }; };
+		221AEECB1BB38405006F19A9 /* pacManSplashScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 221AEEC71BB38405006F19A9 /* pacManSplashScreen@2x.png */; settings = {ASSET_TAGS = (); }; };
+		221AEECC1BB38405006F19A9 /* pacManSplashScreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 221AEEC81BB38405006F19A9 /* pacManSplashScreen@3x.png */; settings = {ASSET_TAGS = (); }; };
+		221AEED31BB3841E006F19A9 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECD1BB3841E006F19A9 /* userModel.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEED41BB3841E006F19A9 /* pizzaUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECE1BB3841E006F19A9 /* pizzaUserModel.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEED51BB3841E006F19A9 /* foodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECF1BB3841E006F19A9 /* foodModel.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEED61BB3841E006F19A9 /* pizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED01BB3841E006F19A9 /* pizzaModel.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEED71BB3841E006F19A9 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED11BB3841E006F19A9 /* enum.swift */; settings = {ASSET_TAGS = (); }; };
 		22A642901BAD4DA8002B6A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */; };
 		22A642921BAD4DA8002B6A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A642911BAD4DA8002B6A4D /* ViewController.swift */; };
 		22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A642931BAD4DA8002B6A4D /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221AEEC41BB38405006F19A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		221AEEC61BB38405006F19A9 /* pacManSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pacManSplashScreen.png; path = /Users/Davix/Source/PizzaRella/PizzaRella/../../Design/PizzaRella/Exports/pacManSplashScreen.png; sourceTree = "<absolute>"; };
+		221AEEC71BB38405006F19A9 /* pacManSplashScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pacManSplashScreen@2x.png"; path = "/Users/Davix/Source/PizzaRella/PizzaRella/../../Design/PizzaRella/Exports/pacManSplashScreen@2x.png"; sourceTree = "<absolute>"; };
+		221AEEC81BB38405006F19A9 /* pacManSplashScreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pacManSplashScreen@3x.png"; path = "/Users/Davix/Source/PizzaRella/PizzaRella/../../Design/PizzaRella/Exports/pacManSplashScreen@3x.png"; sourceTree = "<absolute>"; };
+		221AEECD1BB3841E006F19A9 /* userModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		221AEECE1BB3841E006F19A9 /* pizzaUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaUserModel.swift; sourceTree = "<group>"; };
+		221AEECF1BB3841E006F19A9 /* foodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodModel.swift; sourceTree = "<group>"; };
+		221AEED01BB3841E006F19A9 /* pizzaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pizzaModel.swift; sourceTree = "<group>"; };
+		221AEED11BB3841E006F19A9 /* enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
 		22A6428C1BAD4DA8002B6A4D /* PizzaRella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A642911BAD4DA8002B6A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +92,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221AEEC11BB38405006F19A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = ../Views;
+			sourceTree = "<group>";
+		};
+		221AEEC21BB38405006F19A9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			path = ../ViewModels;
+			sourceTree = "<group>";
+		};
+		221AEEC31BB38405006F19A9 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stores;
+			path = ../Stores;
+			sourceTree = "<group>";
+		};
+		221AEEC51BB38405006F19A9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				221AEEC41BB38405006F19A9 /* Constants.swift */,
+			);
+			name = Helpers;
+			path = ../Helpers;
+			sourceTree = "<group>";
+		};
+		221AEED21BB3841E006F19A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				221AEECD1BB3841E006F19A9 /* userModel.swift */,
+				221AEECE1BB3841E006F19A9 /* pizzaUserModel.swift */,
+				221AEECF1BB3841E006F19A9 /* foodModel.swift */,
+				221AEED01BB3841E006F19A9 /* pizzaModel.swift */,
+				221AEED11BB3841E006F19A9 /* enum.swift */,
+			);
+			name = Models;
+			path = ../Models;
+			sourceTree = "<group>";
+		};
 		22A642831BAD4DA8002B6A4D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +161,14 @@
 		22A6428E1BAD4DA8002B6A4D /* PizzaRella */ = {
 			isa = PBXGroup;
 			children = (
+				221AEED21BB3841E006F19A9 /* Models */,
+				221AEEC11BB38405006F19A9 /* Views */,
+				221AEEC21BB38405006F19A9 /* ViewModels */,
+				221AEEC31BB38405006F19A9 /* Stores */,
+				221AEEC51BB38405006F19A9 /* Helpers */,
+				221AEEC61BB38405006F19A9 /* pacManSplashScreen.png */,
+				221AEEC71BB38405006F19A9 /* pacManSplashScreen@2x.png */,
+				221AEEC81BB38405006F19A9 /* pacManSplashScreen@3x.png */,
 				22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */,
 				22A642911BAD4DA8002B6A4D /* ViewController.swift */,
 				22A642931BAD4DA8002B6A4D /* Main.storyboard */,
@@ -228,9 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221AEECC1BB38405006F19A9 /* pacManSplashScreen@3x.png in Resources */,
+				221AEECA1BB38405006F19A9 /* pacManSplashScreen.png in Resources */,
 				22A6429A1BAD4DA8002B6A4D /* LaunchScreen.storyboard in Resources */,
 				22A642971BAD4DA8002B6A4D /* Assets.xcassets in Resources */,
 				22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */,
+				221AEECB1BB38405006F19A9 /* pacManSplashScreen@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +332,12 @@
 			files = (
 				22A642921BAD4DA8002B6A4D /* ViewController.swift in Sources */,
 				22A642901BAD4DA8002B6A4D /* AppDelegate.swift in Sources */,
+				221AEED71BB3841E006F19A9 /* enum.swift in Sources */,
+				221AEED41BB3841E006F19A9 /* pizzaUserModel.swift in Sources */,
+				221AEED51BB3841E006F19A9 /* foodModel.swift in Sources */,
+				221AEED61BB3841E006F19A9 /* pizzaModel.swift in Sources */,
+				221AEED31BB3841E006F19A9 /* userModel.swift in Sources */,
+				221AEEC91BB38405006F19A9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +562,7 @@
 				22A642B61BAD4DA8002B6A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A642B71BAD4DA8002B6A4D /* Build configuration list for PBXNativeTarget "PizzaRellaTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +571,7 @@
 				22A642B91BAD4DA8002B6A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A642BA1BAD4DA8002B6A4D /* Build configuration list for PBXNativeTarget "PizzaRellaUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +580,7 @@
 				22A642BC1BAD4DA8002B6A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
