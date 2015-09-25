@@ -3,19 +3,9 @@ PODS:
   - Alamofire (2.0.2)
   - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
-  - OHHTTPStubs (4.3.0):
-    - OHHTTPStubs/Default (= 4.3.0)
   - OHHTTPStubs/Core (4.3.0)
-  - OHHTTPStubs/Default (4.3.0):
+  - OHHTTPStubs/Swift (4.3.0):
     - OHHTTPStubs/Core
-    - OHHTTPStubs/JSON
-    - OHHTTPStubs/NSURLSession
-    - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (4.3.0):
-    - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (4.3.0):
-    - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (4.3.0)
   - RestKit (0.25.0):
     - RestKit/Core (= 0.25.0)
   - RestKit/Core (0.25.0):
@@ -42,7 +32,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - OHHTTPStubs
+  - OHHTTPStubs/Swift
   - RestKit
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
 

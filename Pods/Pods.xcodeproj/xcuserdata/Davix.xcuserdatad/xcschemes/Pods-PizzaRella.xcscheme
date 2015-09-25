@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6ABACDAEF86D2899CE0AA40F"
-               BuildableName = "Pods_PizzaRella.framework"
+               BlueprintIdentifier = "669673A2965EBDD4C7873123D0D526D1"
+               BuildableName = "Pods-PizzaRella"
                BlueprintName = "Pods-PizzaRella"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

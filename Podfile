@@ -6,7 +6,7 @@ target 'PizzaRella' do
     pod 'Alamofire'
     pod 'RestKit'
     pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
-    pod 'OHHTTPStubs'
+    pod 'OHHTTPStubs/Swift'
     
 end
 
