@@ -5,13 +5,13 @@
 
 import Foundation
 
-class pizzaModel: foodModel{
+class PizzaModel: FoodModel{
 
     var calories: Int
     var name: String
-    var type: pizzaType
+    var type: PizzaType
     
-    enum pizzaType {
+    enum PizzaType {
 
         case Pepporoni
         case Hawaiian
@@ -20,7 +20,7 @@ class pizzaModel: foodModel{
 
     }
 
-    init(calories : Int ,name : String , type: pizzaModel.pizzaType){
+    init(calories : Int ,name : String , type: PizzaModel.PizzaType){
 
         self.calories = calories;
         self.name = name;

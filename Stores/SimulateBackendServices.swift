@@ -7,42 +7,49 @@ import Foundation
 
 class SimulateBackendServices : pizzaBackEnd{
 
-    var backEndResponseObjects : BackEndResponseObject;
+    var backEndResponseObject: BackEndResponseObject? = nil
 
     init(){
+        
+        self.endPoint = "http://www.testEndPoint.com"
         //Load Json into backEndResponseObject
-        self.backEndResponseObjects = loadJson()
+        if loadJson() != nil {
+            self.backEndResponseObject = loadJson()!
+        }
+
     }
 
-    var entPoint: String? {
+    var endPoint: String? {
         get {
             return nil
         }
-        set {
+        set(endPoint){
+            self.endPoint = endPoint
         }
     }
-    func loggin(loginForm: LoginForm) -> userModel {
-        return self.backEndResponseObjects.userModel
+    func loggin(loginForm: LoginForm) -> ConsumerModel {
+        return self.backEndResponseObject!.userModel
     }
 
-    func signUp(signUpForm: SignUpForm) -> userModel {
-        return self.backEndResponseObjects.userModel
+    func signUp(signUpForm: SignUpForm) -> ConsumerModel {
+        return self.backEndResponseObject!.userModel
     }
 
-    func getUserModel(id: Int) -> userModel {
-        return self.backEndResponseObjects.userModel
+    func getUserModel(id: Int) -> ConsumerModel {
+        return self.backEndResponseObject!.userModel
     }
 
-    func getPizza(i: Int, j: Int) -> [pizzaModel] {
-        return self.backEndResponseObjects.pizzaModelArray
+    func getPizza(i: Int, j: Int) -> [PizzaModel] {
+        return self.backEndResponseObject!.pizzaModelArray
     }
 
-    func getDealOfTheDay() -> pizzaModel {
-        return self.backEndResponseObjects.pizzaMode
+    func getDealOfTheDay() -> PizzaModel {
+        return self.backEndResponseObject!.dealOfDayModel
     }
 
-    func loadJson() -> BackEndResponseObject {
+    func loadJson() -> BackEndResponseObject? {
         //TODO:
         return nil
     }
+
 }

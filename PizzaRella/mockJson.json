@@ -1,0 +1,31 @@
+{
+  "pizzaConsumers": {
+    "testConsumer0": {
+      "firstName": "David",
+      "lastName": "Chan",
+      "userID": "0",
+      "address": "davidkwokhochan@gmail.com"
+    }
+
+    "testConsumer1": {
+      "firstName": "Ling",
+      "lastName": "Meng",
+      "userID": "1",
+      "address": "ling.q.meng@gmail.com"
+    }
+
+    "testConsumer2": {
+      "firstName": "Edward",
+      "lastName": "Hsi",
+      "userID": "2",
+      "address": "edwardhsi7391@gmail.com"
+    }
+
+    "testConsumer3": {
+      "firstName": "Harmeet",
+      "lastName": "Parm",
+      "userID": "3",
+      "address": "Hsptz7churro@gmail.com"
+    }
+  }
+}

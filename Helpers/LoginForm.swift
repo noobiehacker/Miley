@@ -8,9 +8,18 @@
 
 import Foundation
 
-public class LoginForm{
+public class LoginForm {
+
+    var identifier: String
+    var password: passwd
+
+    init(identifier: String, password: passwd){
+        
+        self.identifier = identifier;
+        self.password = password
+    }
     
-    var identifier :String
-    var password :String
+
+
 
 }

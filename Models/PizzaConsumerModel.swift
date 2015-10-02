@@ -8,11 +8,11 @@
 
 import Foundation
 
-class pizzaUserModel: userModel {
+class PizzaConsumerModel: ConsumerModel {
     
-    var pizzaCount: Int
-    var calorieQuata: Double
-    var quotaDuration: Int
+    var pizzaCount: Int?
+    var calorieQuata: Double?
+    var quotaDuration: Int?
     
     //How long it takes in terms of weeks for the quota count to last
     //(Ex: reset every one week, two weeks, one months etc)
@@ -29,7 +29,7 @@ class pizzaUserModel: userModel {
     }
     
     func getCaloriesCountPerWeek() -> Double{
-        return self.calorieQuata/((Double)(self.quotaDuration))
+        return self.calorieQuata!/((Double)(self.quotaDuration!))
     }
     
 }

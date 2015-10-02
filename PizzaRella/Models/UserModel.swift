@@ -1,5 +1,5 @@
 //
-//  UserModel.swift
+//  ConsumerModel.swift
 //  PizzaRella
 //
 //  Created by davix on 9/23/15.

@@ -11,24 +11,24 @@ import Foundation
 protocol pizzaBackEnd {
     
     //Setting the End Pt
-    var entPoint: String? {
+    var endPoint: String? {
         get
         set
     }
     
     //Loggin
-    func loggin(loginForm : LoginForm) -> userModel
+    func loggin(loginForm : LoginForm) -> ConsumerModel
     
     //Sign up
-    func signUp(signUpForm : SignUpForm) -> userModel
+    func signUp(signUpForm : SignUpForm) -> ConsumerModel
     
     //Get a User Model
-    func getUserModel(id : Int) -> userModel
+    func getUserModel(id : Int) -> ConsumerModel
     
     //Get a List of PizzaModel
-    func getPizza(i : Int , j : Int) -> [pizzaModel]
+    func getPizza(i : Int , j : Int) -> [PizzaModel]
     
     //Get Deal of the day
-    func getDealOfTheDay() -> pizzaModel
+    func getDealOfTheDay() -> PizzaModel
     
 }

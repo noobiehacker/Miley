@@ -11,11 +11,12 @@
 		221AEECA1BB38405006F19A9 /* pacManSplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 221AEEC61BB38405006F19A9 /* pacManSplashScreen.png */; settings = {ASSET_TAGS = (); }; };
 		221AEECB1BB38405006F19A9 /* pacManSplashScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 221AEEC71BB38405006F19A9 /* pacManSplashScreen@2x.png */; settings = {ASSET_TAGS = (); }; };
 		221AEECC1BB38405006F19A9 /* pacManSplashScreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 221AEEC81BB38405006F19A9 /* pacManSplashScreen@3x.png */; settings = {ASSET_TAGS = (); }; };
-		221AEED31BB3841E006F19A9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECD1BB3841E006F19A9 /* UserModel.swift */; settings = {ASSET_TAGS = (); }; };
-		221AEED41BB3841E006F19A9 /* PizzaUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECE1BB3841E006F19A9 /* PizzaUserModel.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEED31BB3841E006F19A9 /* ConsumerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECD1BB3841E006F19A9 /* ConsumerModel.swift */; settings = {ASSET_TAGS = (); }; };
+		221AEED41BB3841E006F19A9 /* PizzaConsumerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECE1BB3841E006F19A9 /* PizzaConsumerModel.swift */; settings = {ASSET_TAGS = (); }; };
 		221AEED51BB3841E006F19A9 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECF1BB3841E006F19A9 /* FoodModel.swift */; settings = {ASSET_TAGS = (); }; };
 		221AEED61BB3841E006F19A9 /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED01BB3841E006F19A9 /* PizzaModel.swift */; settings = {ASSET_TAGS = (); }; };
 		221AEED71BB3841E006F19A9 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED11BB3841E006F19A9 /* Enum.swift */; settings = {ASSET_TAGS = (); }; };
+		229434D31BBDDAA7001D636A /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 229434D21BBDDAA7001D636A /* mockJson.json */; settings = {ASSET_TAGS = (); }; };
 		22A642901BAD4DA8002B6A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */; };
 		22A642921BAD4DA8002B6A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A642911BAD4DA8002B6A4D /* ViewController.swift */; };
 		22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A642931BAD4DA8002B6A4D /* Main.storyboard */; settings = {ASSET_TAGS = (toHome, ); }; };
@@ -53,12 +54,13 @@
 		221AEEC61BB38405006F19A9 /* pacManSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pacManSplashScreen.png; path = /Users/Davix/Source/PizzaRella/PizzaRella/../../Design/PizzaRella/Exports/pacManSplashScreen.png; sourceTree = "<absolute>"; };
 		221AEEC71BB38405006F19A9 /* pacManSplashScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pacManSplashScreen@2x.png"; path = "/Users/Davix/Source/PizzaRella/PizzaRella/../../Design/PizzaRella/Exports/pacManSplashScreen@2x.png"; sourceTree = "<absolute>"; };
 		221AEEC81BB38405006F19A9 /* pacManSplashScreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pacManSplashScreen@3x.png"; path = "/Users/Davix/Source/PizzaRella/PizzaRella/../../Design/PizzaRella/Exports/pacManSplashScreen@3x.png"; sourceTree = "<absolute>"; };
-		221AEECD1BB3841E006F19A9 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		221AEECE1BB3841E006F19A9 /* PizzaUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaUserModel.swift; sourceTree = "<group>"; };
+		221AEECD1BB3841E006F19A9 /* ConsumerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumerModel.swift; sourceTree = "<group>"; };
+		221AEECE1BB3841E006F19A9 /* PizzaConsumerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaConsumerModel.swift; sourceTree = "<group>"; };
 		221AEECF1BB3841E006F19A9 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
 		221AEED01BB3841E006F19A9 /* PizzaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
 		221AEED11BB3841E006F19A9 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		221AEEDA1BB3E043006F19A9 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
+		229434D21BBDDAA7001D636A /* mockJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockJson.json; sourceTree = "<group>"; };
 		22A6428C1BAD4DA8002B6A4D /* PizzaRella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A642911BAD4DA8002B6A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,8 +151,8 @@
 		221AEED21BB3841E006F19A9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				221AEECD1BB3841E006F19A9 /* UserModel.swift */,
-				221AEECE1BB3841E006F19A9 /* PizzaUserModel.swift */,
+				221AEECD1BB3841E006F19A9 /* ConsumerModel.swift */,
+				221AEECE1BB3841E006F19A9 /* PizzaConsumerModel.swift */,
 				221AEECF1BB3841E006F19A9 /* FoodModel.swift */,
 				221AEED01BB3841E006F19A9 /* PizzaModel.swift */,
 				221AEED11BB3841E006F19A9 /* Enum.swift */,
@@ -199,6 +201,7 @@
 				22A642961BAD4DA8002B6A4D /* Assets.xcassets */,
 				22A642981BAD4DA8002B6A4D /* LaunchScreen.storyboard */,
 				22A6429B1BAD4DA8002B6A4D /* Info.plist */,
+				229434D21BBDDAA7001D636A /* mockJson.json */,
 			);
 			path = PizzaRella;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				221AEECC1BB38405006F19A9 /* pacManSplashScreen@3x.png in Resources */,
+				229434D31BBDDAA7001D636A /* mockJson.json in Resources */,
 				221AEECA1BB38405006F19A9 /* pacManSplashScreen.png in Resources */,
 				22A6429A1BAD4DA8002B6A4D /* LaunchScreen.storyboard in Resources */,
 				22A642971BAD4DA8002B6A4D /* Assets.xcassets in Resources */,
@@ -428,11 +432,11 @@
 				22A642921BAD4DA8002B6A4D /* ViewController.swift in Sources */,
 				22A642901BAD4DA8002B6A4D /* AppDelegate.swift in Sources */,
 				221AEED71BB3841E006F19A9 /* Enum.swift in Sources */,
-				221AEED41BB3841E006F19A9 /* PizzaUserModel.swift in Sources */,
+				221AEED41BB3841E006F19A9 /* PizzaConsumerModel.swift in Sources */,
 				221AEED51BB3841E006F19A9 /* FoodModel.swift in Sources */,
 				22B2CD971BB503BD00719E1D /* LoginForm.swift in Sources */,
 				221AEED61BB3841E006F19A9 /* PizzaModel.swift in Sources */,
-				221AEED31BB3841E006F19A9 /* UserModel.swift in Sources */,
+				221AEED31BB3841E006F19A9 /* ConsumerModel.swift in Sources */,
 				22B2CD951BB4F97E00719E1D /* PizzaBackEnd.swift in Sources */,
 				22B2CD991BB5044600719E1D /* SignUpForm.swift in Sources */,
 				221AEEC91BB38405006F19A9 /* Constants.swift in Sources */,

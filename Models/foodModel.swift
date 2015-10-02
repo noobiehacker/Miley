@@ -5,5 +5,5 @@
 
 import Foundation
 
-class foodModel {
+class FoodModel {
 }

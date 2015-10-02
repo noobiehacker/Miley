@@ -14,11 +14,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Helpers/Constants.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Helpers/LoginForm.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Helpers/SignUpForm.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Models/ConsumerModel.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Models/Enum.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Models/FoodModel.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Models/PizzaConsumerModel.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Models/PizzaModel.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Models/PizzaUserModel.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Models/UserModel.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Objective-CBridgingHeader.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/Assets.xcassets" isTestSource="false" />
@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PizzaRella/mockJson.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRellaTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRellaTests/PizzaRellaTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRellaUITests/Info.plist" isTestSource="false" />
@@ -33,8 +34,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Stores/BackEndMockObject.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Stores/SimulateBackendServices.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Stores/PizzaBackEnd.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stores/SimulateBackendServices.swift" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

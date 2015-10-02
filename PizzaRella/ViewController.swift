@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        createMockPizzaBackEndProToCol()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,5 +30,19 @@ class ViewController: UIViewController {
     @IBAction func showFunFact() {
         print("You pressed me!")
     }
+    
+    func createMockPizzaBackEndProToCol(){
+        
+        //Creates the path for the Json String File
+        let path : String = NSBundle.mainBundle().pathForResource("mockJson" , ofType: "json") as String!
+        let jsonData = NSData(contentsOfFile: path) as NSData!
+        let readableJSON = JSON(data: jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil)
+        
+        let Name = readableJSON["pizzaConsumers"]
+        
+        NSLog("\(Name)")
+        
+    }
+    
 }
 
