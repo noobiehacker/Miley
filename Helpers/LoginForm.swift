@@ -18,7 +18,7 @@ public class LoginForm {
         self.identifier = identifier;
         self.password = password
     }
-    
+
 
 
 

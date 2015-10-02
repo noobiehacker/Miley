@@ -26,7 +26,6 @@
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRella/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PizzaRella/mockJson.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRellaTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRellaTests/PizzaRellaTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PizzaRellaUITests/Info.plist" isTestSource="false" />

@@ -16,7 +16,6 @@
 		221AEED51BB3841E006F19A9 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEECF1BB3841E006F19A9 /* FoodModel.swift */; settings = {ASSET_TAGS = (); }; };
 		221AEED61BB3841E006F19A9 /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED01BB3841E006F19A9 /* PizzaModel.swift */; settings = {ASSET_TAGS = (); }; };
 		221AEED71BB3841E006F19A9 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AEED11BB3841E006F19A9 /* Enum.swift */; settings = {ASSET_TAGS = (); }; };
-		229434D31BBDDAA7001D636A /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 229434D21BBDDAA7001D636A /* mockJson.json */; settings = {ASSET_TAGS = (); }; };
 		22A642901BAD4DA8002B6A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */; };
 		22A642921BAD4DA8002B6A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A642911BAD4DA8002B6A4D /* ViewController.swift */; };
 		22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A642931BAD4DA8002B6A4D /* Main.storyboard */; settings = {ASSET_TAGS = (toHome, ); }; };
@@ -27,6 +26,8 @@
 		22B2CD951BB4F97E00719E1D /* PizzaBackEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2CD941BB4F97E00719E1D /* PizzaBackEnd.swift */; settings = {ASSET_TAGS = (); }; };
 		22B2CD971BB503BD00719E1D /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2CD961BB503BD00719E1D /* LoginForm.swift */; settings = {ASSET_TAGS = (); }; };
 		22B2CD991BB5044600719E1D /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B2CD981BB5044600719E1D /* SignUpForm.swift */; settings = {ASSET_TAGS = (); }; };
+		22EA8CF51BBF00F4007B8A6B /* SwiftyJSON.swift in Resources */ = {isa = PBXBuildFile; fileRef = 22EA8CF41BBF00F4007B8A6B /* SwiftyJSON.swift */; };
+		22EA8CF61BBF02E2007B8A6B /* testJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 229434D21BBDDAA7001D636A /* testJson.json */; };
 		3EC1E015ABFEB04E5A0D89A4 /* BackEndMockObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1E232A3477ECF9BF884A5 /* BackEndMockObject.swift */; };
 		3EC1E664364D341DB673FEE7 /* SimulateBackendServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1E20250E0CE7B61473497 /* SimulateBackendServices.swift */; };
 		6AD013E43173B6D63E067830 /* Pods_PizzaRella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DCAD5DC67FE2D435F63D96 /* Pods_PizzaRella.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -60,7 +61,7 @@
 		221AEED01BB3841E006F19A9 /* PizzaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
 		221AEED11BB3841E006F19A9 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		221AEEDA1BB3E043006F19A9 /* Objective-CBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-CBridgingHeader.h"; sourceTree = "<group>"; };
-		229434D21BBDDAA7001D636A /* mockJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockJson.json; sourceTree = "<group>"; };
+		229434D21BBDDAA7001D636A /* testJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = testJson.json; path = PizzaRella/testJson.json; sourceTree = "<group>"; };
 		22A6428C1BAD4DA8002B6A4D /* PizzaRella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaRella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A6428F1BAD4DA8002B6A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A642911BAD4DA8002B6A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		22B2CD941BB4F97E00719E1D /* PizzaBackEnd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaBackEnd.swift; sourceTree = "<group>"; };
 		22B2CD961BB503BD00719E1D /* LoginForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		22B2CD981BB5044600719E1D /* SignUpForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
+		22EA8CF41BBF00F4007B8A6B /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Pods/SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		3EC1E20250E0CE7B61473497 /* SimulateBackendServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulateBackendServices.swift; sourceTree = "<group>"; };
 		3EC1E232A3477ECF9BF884A5 /* BackEndMockObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEndMockObject.swift; sourceTree = "<group>"; };
 		6DEB4BE8617F413089B06A8C /* Pods-PizzaRella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaRella.release.xcconfig"; path = "Pods/Target Support Files/Pods-PizzaRella/Pods-PizzaRella.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +166,8 @@
 		22A642831BAD4DA8002B6A4D = {
 			isa = PBXGroup;
 			children = (
+				229434D21BBDDAA7001D636A /* testJson.json */,
+				22EA8CF41BBF00F4007B8A6B /* SwiftyJSON.swift */,
 				221AEEDA1BB3E043006F19A9 /* Objective-CBridgingHeader.h */,
 				22A6428E1BAD4DA8002B6A4D /* PizzaRella */,
 				22A642A31BAD4DA8002B6A4D /* PizzaRellaTests */,
@@ -201,7 +205,6 @@
 				22A642961BAD4DA8002B6A4D /* Assets.xcassets */,
 				22A642981BAD4DA8002B6A4D /* LaunchScreen.storyboard */,
 				22A6429B1BAD4DA8002B6A4D /* Info.plist */,
-				229434D21BBDDAA7001D636A /* mockJson.json */,
 			);
 			path = PizzaRella;
 			sourceTree = "<group>";
@@ -351,12 +354,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				221AEECC1BB38405006F19A9 /* pacManSplashScreen@3x.png in Resources */,
-				229434D31BBDDAA7001D636A /* mockJson.json in Resources */,
+				22EA8CF61BBF02E2007B8A6B /* testJson.json in Resources */,
 				221AEECA1BB38405006F19A9 /* pacManSplashScreen.png in Resources */,
 				22A6429A1BAD4DA8002B6A4D /* LaunchScreen.storyboard in Resources */,
 				22A642971BAD4DA8002B6A4D /* Assets.xcassets in Resources */,
 				22A642951BAD4DA8002B6A4D /* Main.storyboard in Resources */,
 				221AEECB1BB38405006F19A9 /* pacManSplashScreen@2x.png in Resources */,
+				22EA8CF51BBF00F4007B8A6B /* SwiftyJSON.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
